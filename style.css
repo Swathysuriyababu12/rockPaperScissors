@@ -1,0 +1,48 @@
+.choiceBtn {
+  line-height: 30px;
+  width: 150px;
+}
+#gameDiv {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 3px solid;
+  border-radius: 25px;
+  padding: 10px;
+  background-color: rgb(107, 204, 239);
+  text-align: center;
+  min-height: 700px;
+}
+#playerText {
+  color: blue;
+}
+#computerText {
+  color: red;
+}
+
+.result {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 3px solid;
+  border-radius: 25px;
+  padding: 10px;
+
+  text-align: center;
+  min-height: 1000px;
+  font-weight: bolder;
+  font-size: 100px;
+  color: rgb(239, 221, 55);
+  background: url(./123.jpg);
+  background-size: 1500px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+#yourscore {
+  text-align: right;
+  padding-left: 10px;
+
+  padding-top: 10px;
+}
+
+#computerscore {
+  text-align: left;
+  padding-right: 20px;
+}
